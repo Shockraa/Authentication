@@ -1,0 +1,16 @@
+node_modules
+dist 
+
+node.exe
+npm
+npm.cmd
+npm.ps1
+npx
+npx.cmd
+npx.ps1
+.node_repl_history
+package-lock.json
+package.json
+sass
+sass.cmd
+sass.ps1
