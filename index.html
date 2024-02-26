@@ -5,9 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Google Auth</title>
+    <link rel="stylesheet" href="src/style.css">
 </head>
 
 <body>
+    <div id="wrapper">
+    <h1>Yo</h1>
     <script src="https://accounts.google.com/gsi/client" async></script>
     <script>
         function handleCredentialResponse(response) {
@@ -26,6 +29,7 @@
         }
     </script>
     <div id="buttonDiv"></div>
+</div>
 </body>
 
 </html>
